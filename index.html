@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Neural network-based clustering using pairwise constraints : An end-to-end clustering framework">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Neural network-based clustering using pairwise constraints</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/yenchanghsu/NNclustering">View on GitHub</a>
+
+          <h1 id="project_title">Neural network-based clustering using pairwise constraints</h1>
+          <h2 id="project_tagline">An end-to-end clustering framework</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/yenchanghsu/NNclustering/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/yenchanghsu/NNclustering/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>
+<a id="abstract" class="anchor" href="#abstract" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Abstract</h2>
+
+<p>This paper presents a neural network-based end-to-end clustering framework. We design a novel strategy to utilize the contrastive criteria for pushing data-forming clusters directly from raw data, in addition to learning a feature embedding suitable for such clustering. The network is trained with weak labels, specifically partial pairwise relationships between data instances. The cluster assignments and their probabilities are then obtained at the output layer by feed-forwarding the data. The framework has the interesting characteristic that no cluster centers need to be explicitly specified, thus the resulting cluster distribution is purely data-driven and no distance metrics need to be predefined. The experiments show that the proposed approach beats the conventional two-stage method (feature embedding with k-means) by a significant margin. It also compares favorably to the performance of the standard cross entropy loss for classification. Robustness analysis also shows that the method is largely insensitive to the number of clusters. Specifically, we show that the number of dominant clusters is close to the true number of clusters even when a large k is used for clustering. </p>
+
+<h3>
+<a id="bibtex" class="anchor" href="#bibtex" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bibtex</h3>
+
+<pre><code>@article{hsu2016nnclustering,
+    title={Neural network-based clustering using pairwise constraints},
+    author={Yen-Chang Hsu, Zsolt Kira},
+    journal={ICML Workshop},
+    year={2016}
+}
+</code></pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Neural network-based clustering using pairwise constraints maintained by <a href="https://github.com/yenchanghsu">yenchanghsu</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
