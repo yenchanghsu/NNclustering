@@ -3,6 +3,7 @@ The demo code for "Neural network-based clustering using pairwise constraints" (
 
 ## Prerequest
 Install the [hungarian algorithm](https://github.com/yenchanghsu/hungarian.torch) for optimal cluster assignment.
+[MNIST](https://github.com/andresy/mnist)
 
 ## Demo
 The demo code is modified from [szagoruyko's work](https://github.com/szagoruyko/cifar.torch).
