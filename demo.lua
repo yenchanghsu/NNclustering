@@ -128,7 +128,7 @@ function train()
     for i=1,ind:nElement() do
       new_mat[i] = confusion.mat[ind[i] ]
     end
-    confusion.mat = new_mat
+    confusion.mat:copy(new_mat)
   end
 
   confusion:updateValids()
@@ -160,7 +160,7 @@ function test()
     for i=1,ind:nElement() do
       new_mat[i] = confusion.mat[ind[i] ]
     end
-    confusion.mat = new_mat
+    confusion.mat:copy(new_mat)
   end
 
   confusion:updateValids()
