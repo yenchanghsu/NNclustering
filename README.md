@@ -1,3 +1,5 @@
+NEWS: A PyTorch implementation is available here: [https://github.com/GT-RIPL/L2C](https://github.com/GT-RIPL/L2C)
+
 # NNclustering
 The demo code for "Neural network-based clustering using pairwise constraints" (http://arxiv.org/abs/1511.06321)
 
